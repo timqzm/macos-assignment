@@ -49,6 +49,7 @@ Although this was not mentioned in the assignment, I decided not to use third-pa
 
 Speaking about limitations, FSEvents is more preferable because it doesn't have such [scalability problems](https://github.com/emcrisostomo/fswatch#limitations) as kqueue:
 > kqueue requires a file descriptor to be opened for every file being watched. As a result, this monitor scales badly with the number of files being observed, and may begin to misbehave as soon as a process runs out of file descriptors.
+
 That's why I continued with FSEvents.
 
 # Build
